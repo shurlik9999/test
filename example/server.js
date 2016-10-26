@@ -6,7 +6,7 @@ var file = new static.Server('.');
 
 
 function accept(req, res) {
-
+  //что-то не работает 
   // если URL запроса /vote, то...
   if (req.url == '/vote') {
     // через 1.5 секунды ответить сообщением
